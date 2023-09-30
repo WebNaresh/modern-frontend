@@ -6,9 +6,6 @@ const RightNav = (props: Props) => {
   return (
     <>
       <li>
-        <Link to={"/login"}>Login</Link>
-      </li>
-      <li>
         <Link to={"/"}>Home</Link>
       </li>
       <li>
@@ -16,6 +13,12 @@ const RightNav = (props: Props) => {
       </li>
       <li>
         <Link to={"/about"}>About</Link>
+      </li>
+      <li>
+        <Link to={"/login"}>Login</Link>
+      </li>
+      <li>
+        <Link to={"/signup"}>SignUp</Link>
       </li>
     </>
   );

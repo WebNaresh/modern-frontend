@@ -24,6 +24,7 @@ function ModernCarousel() {
   };
   return (
     <Carousel
+      slidesToSlide={3}
       className="m-12"
       // centerMode={true}
       arrows={true}
